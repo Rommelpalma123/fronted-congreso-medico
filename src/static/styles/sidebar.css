@@ -1,0 +1,90 @@
+.sidebar-admin {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(81, 81, 81);
+  width: 15%;
+  height: 100vh;
+  transition: 0.5s;
+  padding: 20px;
+  overflow: hidden;
+}
+.listsidebar ul {
+  height: 100%;
+  text-align: start;
+  list-style: none;
+}
+.listsidebar ul li {
+  margin: 10px !important;
+  padding: 10px !important;
+}
+.listsidebar ul li:hover {
+  background-color: aliceblue;
+  border-radius: 10px !important;
+}
+.lisidebar2:hover {
+  background-color: rgb(245, 30, 30) !important;
+  border-radius: 10px !important;
+}
+.lisidebar:hover a {
+  color: black !important;
+}
+.asidebar {
+  color: aliceblue !important;
+  text-decoration: none !important;
+  padding: 15px 10px 0 10px !important;
+  text-align: center;
+}
+/* .sidebar-admin:hover{
+    transition: 0.5s;
+    width: 20%;
+} */
+.headersidebar {
+  height: 20%;
+  text-align: center;
+  border-bottom: 1px solid rgb(159, 152, 152);
+  padding: 20px !important;
+}
+.listsidebar {
+  height: 100%;
+}
+
+.hoverbutton {
+  position: absolute !important;
+  margin-left: 20px !important;
+}
+
+.ulsidebar {
+  margin: 1000px;
+}
+
+.footersidebar {
+  border-top: 0.01em solid rgb(159, 152, 152);
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_icon {
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .sidebar-admin {
+    transition: 0.5s;
+    width: 100%;
+    height: 10%;
+  }
+  .sidebar-admin:hover {
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+  }
+  .img_icon {
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+  }
+}
